@@ -1,4 +1,4 @@
-# vuejs-dependency-wheel
+# vue-dependency-wheel
 
 ## Project setup
 ```
@@ -10,15 +10,8 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Run API (localhost:8081)
 ```
-npm run build
+cd server
+node server.js
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
