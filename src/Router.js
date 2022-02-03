@@ -9,7 +9,7 @@ const Router = {
     const route = Router.getRoute();
     Router.route = Router.routes[route] ? route : '';
     Router.params = Router.getParams();
-    window.onpopstate = () => Router.setRoute(Router.getRouteName(), Router.getParams());
+    window.onpopstate = () => Router.setRoute(Router.getRoute(), Router.getParams());
   },
   subscriptions: [],
   setRoute: (route, params) => {
